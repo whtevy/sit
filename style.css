@@ -1,0 +1,41 @@
+img {
+    height: 230px;
+    border-radius: 8px;
+    transition: transform 0,2s;
+    align-self: center;
+    text-align: left;
+    
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+body {
+    background-image:url('fundo.png');
+    background-size: cover;
+    background-attachment: fixed; 
+}
+h2 {
+    text-align: center;
+    height: 50px;
+    text-size-adjust: 20px;
+}
+h1 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    height: 76px;
+    text-decoration-style: dotted;
+    text-decoration-color: black;
+    
+}
+.container {
+    position: relative;
+}
+  
+.texto {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
