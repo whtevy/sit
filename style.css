@@ -1,10 +1,22 @@
 h1 {
-    color: rgb(255, 255, 255);
     text-align: center;
-    height: 76px;
     text-decoration-style: dotted;
     text-decoration-color: rgb(2, 85, 16);
-    
+    animation: color 8s infinite;
+}
+
+@keyframes color {
+    0% {color: cadetblue;}
+    10% {color:yellow;}
+    20% {color:rosybrown;}
+    30% {color:pink;}
+    40% {color:firebrick;}
+    50% {color:turquoise;}
+    60% {color:greenyellow;}
+    70% {color:honeydew;}
+    80% {color:orange;}
+    90% {color:purple;}
+    100% {color:white;}
 }
 
 img {
@@ -13,6 +25,7 @@ img {
     transition: transform 0,2s;
     align-self: center;
     text-align: left;
+
 }
 
 img:hover {
@@ -26,7 +39,7 @@ body {
 
 h2 {
     text-align: center;
-    height: 200px;
+    height: 150px;
     text-size-adjust: 500px;
     color: rgb(255, 255, 255);
 }
@@ -43,8 +56,4 @@ h2 {
     font-size: 32px;
     left: 250px;
     top: 135px;
-}
-ul {
-    position: top;
-    text-align: center;
 }
