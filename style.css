@@ -1,10 +1,18 @@
+h1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    height: 76px;
+    text-decoration-style: dotted;
+    text-decoration-color: rgb(2, 85, 16);
+    
+}
+
 img {
-    height: 230px;
+    height: 350px;
     border-radius: 8px;
     transition: transform 0,2s;
     align-self: center;
     text-align: left;
-    
 }
 
 img:hover {
@@ -15,27 +23,28 @@ body {
     background-size: cover;
     background-attachment: fixed; 
 }
+
 h2 {
     text-align: center;
-    height: 50px;
-    text-size-adjust: 20px;
+    height: 200px;
+    text-size-adjust: 500px;
+    color: rgb(255, 255, 255);
 }
-h1 {
-    color: rgb(0, 0, 0);
-    text-align: center;
-    height: 76px;
-    text-decoration-style: dotted;
-    text-decoration-color: black;
-    
-}
+
 .container {
     position: relative;
 }
-  
-.texto {
+#image {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 1;
+  }
+  
+#texto {
+    position: absolute;
+    font-size: 32px;
+    left: 250px;
+    top: 135px;
+}
+ul {
+    position: top;
+    text-align: center;
 }
